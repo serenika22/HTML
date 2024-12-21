@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Name attribute in forms</title>
+</head>
+<body>
+    <form action="/server">
+        <div>
+            <label for="username">Userame: </label>
+            <input type="text" placeholder="Enter username" id="username" name="nameofuser">
+        </div>
+        <div>
+            <label for="password">Password: </label>
+            <input type="password" placeholder="Enter password" id="password" name="pass">
+        </div>
+        <button>Submit</button>
+        <hr>
+    </form>
+    <!--NAME ATTRIBUTE WITH ACTION OF YOUTUBE-->
+    <form action="https://www.youtube.com/results?">
+        <div>
+            <label for="option">search what you want: </label>
+            <br>
+            <input type="text" placeholder="enter youtube search" id="option" name="search_query"/>
+            <br>
+            <button>search</button>
+        </div>
+    </form>
+    <hr>
+    <!--WITH GOOGLE ACTION-->
+    <form action="https://www.google.com/search?">
+        <div>
+            <input type="text" placeholder="search in google" name="q"/>
+            <button>search</button>
+        </div>
+    </form>
+</body>
+</html>
